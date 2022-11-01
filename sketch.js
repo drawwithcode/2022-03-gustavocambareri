@@ -31,7 +31,11 @@ function draw() {
   textAlign(CENTER);
   //I have to tell the user to click first because if I don't click, the foo object won't speak. I don't know why, but this is a design workaround to solve the problem.
   //I would like this sketch to be non-looping, and working in a different way everytime I say a different word, but I can't right now. Still a lot to learn about objects and classes
-  text("click first and then speak to me", width / 2 - 300, height / 2);
+  text(
+    "click first and then speak to me (in italian)",
+    width / 2 - 500,
+    height / 2
+  );
   parrotTalk();
 }
 function mouseClicked() {
